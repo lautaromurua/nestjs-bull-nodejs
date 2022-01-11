@@ -4,12 +4,7 @@ import { SyncModule } from './sync/sync.module';
 import { CoreModule } from './core/core.module';
 
 @Module({
-    imports: [
-        CoreModule,
-        SyncModule
-    ],
-    controllers: [
-        AppController
-    ]
+  imports: [CoreModule, SyncModule],
+  controllers: [AppController],
 })
-export class AppModule { }
+export class AppModule {}
